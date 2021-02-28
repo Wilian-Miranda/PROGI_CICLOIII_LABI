@@ -26,7 +26,7 @@ namespace LaboratorioProgramacionUno.Negocio
                     estado = 1;
                 }
 
-                else if (entidad.Admin.Equals(clsAdmin.administradores[i]) && entidad.AdminPass.Equals(clsAdmin.adminPasswords[i]))
+                if (entidad.Admin.Equals(clsAdmin.administradores[i]) && entidad.AdminPass.Equals(clsAdmin.adminPasswords[i]))
                 {
                     estado = 2;
                 }

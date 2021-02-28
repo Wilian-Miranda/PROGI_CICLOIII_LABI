@@ -18,6 +18,8 @@ namespace LaboratorioProgramacionUno
             InitializeComponent();
         }
 
+        public int estado;
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -25,16 +27,25 @@ namespace LaboratorioProgramacionUno
 
         public void btnUsuario_Click(object sender, EventArgs e)
         {
-            frmLogin frmLoginUser = new frmLogin();
-            frmLoginUser.Show();
-            this.Hide();
+                estado = 1;
+                frmLogin frmLoginUser = new frmLogin();
+                frmLoginUser.Show();
+                this.Hide();
+                
         }
 
         public void btnAdministrador_Click(object sender, EventArgs e)
         {
+            estado = 2;
             frmLogin frmLoginAdmin = new frmLogin();
             frmLoginAdmin.Show();
             this.Hide();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -52,6 +52,7 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -277,11 +278,24 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label18.TabIndex = 23;
             this.label18.Text = "y con IVA incluido";
             // 
+            // button1
+            // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button1.Location = new System.Drawing.Point(0, 413);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(0, 0);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "btnSalir";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmOperaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(793, 437);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -339,5 +353,6 @@ namespace LaboratorioProgramacionUno.VIstas
         private System.Windows.Forms.Label label18;
         public System.Windows.Forms.TextBox txtIVA;
         public System.Windows.Forms.TextBox txtNombreProducto;
+        private System.Windows.Forms.Button button1;
     }
 }

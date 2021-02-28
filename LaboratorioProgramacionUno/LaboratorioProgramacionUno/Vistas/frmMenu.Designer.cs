@@ -31,6 +31,7 @@ namespace LaboratorioProgramacionUno
         {
             this.btnUsuario = new System.Windows.Forms.Button();
             this.btnAdministrador = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnUsuario
@@ -54,15 +55,28 @@ namespace LaboratorioProgramacionUno
             this.btnAdministrador.UseVisualStyleBackColor = true;
             this.btnAdministrador.Click += new System.EventHandler(this.btnAdministrador_Click);
             // 
+            // button1
+            // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button1.Location = new System.Drawing.Point(13, 407);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(0, 0);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAdministrador);
             this.Controls.Add(this.btnUsuario);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Tag = "btnSalir";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -73,6 +87,7 @@ namespace LaboratorioProgramacionUno
 
         public System.Windows.Forms.Button btnUsuario;
         public System.Windows.Forms.Button btnAdministrador;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -36,28 +36,62 @@ namespace LaboratorioProgramacionUno.VIstas
             int acceder = clsLogin.acceso(clsEntidad);
             //int accederAdmin = clsLoginAdmin.accesoAdmin(clsEntidad);
 
-            if (acceder == 1)
+            if (frmMenu.estado == 1)
             {
-                MessageBox.Show("Bienvenido " + txtUser.Text);
-                _frmOperaciones.usuarioEstado = txtUser.Text;
-                _frmOperaciones.Show();
-                this.Hide();
-                _frmOperaciones.txtIVA.Enabled = false;
-                _frmOperaciones.txtNombreProducto.Enabled = false;
+                if(acceder == 1)
+                {
+                    MessageBox.Show("Bienvenido " + txtUser.Text);
+                    _frmOperaciones.usuarioEstado = txtUser.Text;
+                    _frmOperaciones.Show();
+                    this.Hide();
+                    _frmOperaciones.txtIVA.Enabled = false;
+                    _frmOperaciones.txtNombreProducto.Enabled = false;
+                }
+                
+                else if(acceder == 2)
+                {
+                    MessageBox.Show("Error");
+                }
             }
 
-            else if (acceder == 2)
+            else if (frmMenu.estado == 2)
             {
+                if (acceder == 2)
+                {
+                    MessageBox.Show("Bienvenido " + txtUser.Text.ToString());
+                    _frmOperaciones.usuarioEstado = txtUser.Text;
+                    _frmOperaciones.Show();
+                    this.Hide();
+                }
 
-                MessageBox.Show("Bienvenido " + txtUser.Text.ToString());
-                _frmOperaciones.usuarioEstado = txtUser.Text;
-                _frmOperaciones.Show();
-                this.Hide();
+                else
+                {
+                    MessageBox.Show("Error");
+                }
+            }
+
+            else if ((this.txtUser.Text == "") && (this.txtPass.Text == ""))
+            {
+                MessageBox.Show("Llene los campos");
+
             }
 
             else
             {
                 MessageBox.Show("Credenciales incorrectas");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btnEntrar.PerformClick();
             }
         }
     }
