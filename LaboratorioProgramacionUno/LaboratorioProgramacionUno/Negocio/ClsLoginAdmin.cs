@@ -8,22 +8,22 @@ using System.Threading.Tasks;
 
 namespace LaboratorioProgramacionUno.Negocio
 {
-    class ClsLogin
+    class ClsLoginAdmin
     {
         ClsUsuarios clsUser = new ClsUsuarios();
         ClsAdministradores clsAdmin = new ClsAdministradores();
-        public int accesoUser(ClsEntidades entidad)
+        public int accesoAdmin(ClsEntidades entidad)
         {
             int estado = 0;
 
-            clsUser.usuarios = clsUser.usuarios.Distinct().ToArray();
-            clsUser.userPasswords = clsUser.userPasswords.Distinct().ToArray();
+            clsAdmin.administradores = clsAdmin.administradores.Distinct().ToArray();
+            clsAdmin.adminPasswords = clsAdmin.adminPasswords.Distinct().ToArray();
 
             for (int i = 0; i < clsUser.usuarios.Length; i++)
             {
-                if (entidad.User.Equals(clsUser.usuarios[i]) && entidad.UserPass.Equals(clsUser.userPasswords[i]))
+                if (entidad.Admin.Equals(clsAdmin.administradores[i]) && entidad.AdminPass.Equals(clsAdmin.adminPasswords[i]))
                 {
-                    estado = 1;
+                    estado = 2;
                 }
             }
 

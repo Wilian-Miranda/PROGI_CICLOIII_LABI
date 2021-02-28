@@ -31,8 +31,8 @@ namespace LaboratorioProgramacionUno.VIstas
         {
             this.lblUser = new System.Windows.Forms.Label();
             this.lblPass = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -56,28 +56,31 @@ namespace LaboratorioProgramacionUno.VIstas
             this.lblPass.TabIndex = 1;
             this.lblPass.Text = "Password";
             // 
-            // textBox1
+            // txtUser
             // 
-            this.textBox1.Location = new System.Drawing.Point(363, 142);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtUser.Location = new System.Drawing.Point(363, 142);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(178, 20);
+            this.txtUser.TabIndex = 2;
             // 
-            // textBox2
+            // txtPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(363, 214);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtPass.Location = new System.Drawing.Point(363, 214);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(178, 20);
+            this.txtPass.TabIndex = 3;
+            this.txtPass.Tag = "";
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(344, 292);
+            this.btnEntrar.Location = new System.Drawing.Point(413, 280);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(128, 23);
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // frmLogin
             // 
@@ -85,8 +88,8 @@ namespace LaboratorioProgramacionUno.VIstas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnEntrar);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtUser);
             this.Controls.Add(this.lblPass);
             this.Controls.Add(this.lblUser);
             this.Name = "frmLogin";
@@ -101,8 +104,8 @@ namespace LaboratorioProgramacionUno.VIstas
 
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Label lblPass;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button btnEntrar;
     }
 }

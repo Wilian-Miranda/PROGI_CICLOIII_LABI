@@ -50,30 +50,31 @@
     <Compile Include="DAO\ClsUsuarios.cs" />
     <Compile Include="Dominio\ClsEntidades.cs" />
     <Compile Include="Negocio\ClsLogin.cs" />
-    <Compile Include="VIstas\frmLogin.cs">
+    <Compile Include="Negocio\ClsLoginAdmin.cs" />
+    <Compile Include="Vistas\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VIstas\frmLogin.Designer.cs">
+    <Compile Include="Vistas\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="VIstas\frmMenu.cs">
+    <Compile Include="Vistas\frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VIstas\frmMenu.Designer.cs">
+    <Compile Include="Vistas\frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VIstas\frmOperaciones.cs">
+    <Compile Include="Vistas\frmOperaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VIstas\frmOperaciones.Designer.cs">
+    <Compile Include="Vistas\frmOperaciones.Designer.cs">
       <DependentUpon>frmOperaciones.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="VIstas\frmLogin.resx">
+    <EmbeddedResource Include="Vistas\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VIstas\frmMenu.resx">
+    <EmbeddedResource Include="Vistas\frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
