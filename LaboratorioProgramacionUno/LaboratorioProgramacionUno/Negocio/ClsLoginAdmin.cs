@@ -12,9 +12,9 @@ namespace LaboratorioProgramacionUno.Negocio
     {
         ClsUsuarios clsUser = new ClsUsuarios();
         ClsAdministradores clsAdmin = new ClsAdministradores();
-        public int accesoAdmin(ClsEntidades entidad)
+        public bool accesoAdmin(ClsEntidades entidad)
         {
-            int estado = 0;
+            bool estado = false;
 
             clsAdmin.administradores = clsAdmin.administradores.Distinct().ToArray();
             clsAdmin.adminPasswords = clsAdmin.adminPasswords.Distinct().ToArray();
@@ -23,7 +23,7 @@ namespace LaboratorioProgramacionUno.Negocio
             {
                 if (entidad.Admin.Equals(clsAdmin.administradores[i]) && entidad.AdminPass.Equals(clsAdmin.adminPasswords[i]))
                 {
-                    estado = 2;
+                    estado = true;
                 }
             }
 

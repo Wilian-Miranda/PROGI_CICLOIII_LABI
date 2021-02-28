@@ -20,3 +20,4 @@ C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\L
 C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
 C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
 C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmOperaciones.resources

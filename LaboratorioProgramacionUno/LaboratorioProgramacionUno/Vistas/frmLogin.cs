@@ -22,8 +22,10 @@ namespace LaboratorioProgramacionUno.VIstas
         private void btnEntrar_Click(object sender, EventArgs e)
         {
             ClsEntidades clsEntidad = new ClsEntidades();
-            ClsLoginUser clsLogin = new ClsLoginUser();
+            ClsLogin clsLogin = new ClsLogin();
             ClsLoginAdmin clsLoginAdmin = new ClsLoginAdmin();
+            Form1 frmMenu = new Form1();
+            frmOperaciones _frmOperaciones = new frmOperaciones();
 
             clsEntidad.User = txtUser.Text;
             clsEntidad.UserPass = txtPass.Text;
@@ -31,17 +33,26 @@ namespace LaboratorioProgramacionUno.VIstas
             clsEntidad.Admin = txtUser.Text;
             clsEntidad.AdminPass = txtPass.Text;
 
-            int accederUser = clsLogin.accesoUser(clsEntidad);
-            int accederAdmin = clsLoginAdmin.accesoAdmin(clsEntidad);
+            int acceder = clsLogin.acceso(clsEntidad);
+            //int accederAdmin = clsLoginAdmin.accesoAdmin(clsEntidad);
 
-            if(accederUser == 1 && accederAdmin == 0)
+            if (acceder == 1)
             {
-                MessageBox.Show("Bienvenido " + txtUser.Text.ToString());
+                MessageBox.Show("Bienvenido " + txtUser.Text);
+                _frmOperaciones.usuarioEstado = txtUser.Text;
+                _frmOperaciones.Show();
+                this.Hide();
+                _frmOperaciones.txtIVA.Enabled = false;
+                _frmOperaciones.txtNombreProducto.Enabled = false;
             }
 
-            else if (accederAdmin == 1 && accederUser == 0)
+            else if (acceder == 2)
             {
+
                 MessageBox.Show("Bienvenido " + txtUser.Text.ToString());
+                _frmOperaciones.usuarioEstado = txtUser.Text;
+                _frmOperaciones.Show();
+                this.Hide();
             }
 
             else

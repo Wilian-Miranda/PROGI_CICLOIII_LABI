@@ -16,5 +16,11 @@ namespace LaboratorioProgramacionUno.VIstas
         {
             InitializeComponent();
         }
+
+        public string usuarioEstado;
+        private void frmOperaciones_Load(object sender, EventArgs e)
+        {
+            lblUsuario.Text = usuarioEstado;
+        }
     }
 }

@@ -13,7 +13,6 @@ namespace LaboratorioProgramacionUno
 {
     public partial class Form1 : Form
     {
-        frmLogin OfrmLogin = new frmLogin();
         public Form1()
         {
             InitializeComponent();
@@ -24,16 +23,17 @@ namespace LaboratorioProgramacionUno
 
         }
 
-        private void btnUsuario_Click(object sender, EventArgs e)
+        public void btnUsuario_Click(object sender, EventArgs e)
         {
-
-            OfrmLogin.Show();
+            frmLogin frmLoginUser = new frmLogin();
+            frmLoginUser.Show();
             this.Hide();
         }
 
-        private void btnAdministrador_Click(object sender, EventArgs e)
+        public void btnAdministrador_Click(object sender, EventArgs e)
         {
-            OfrmLogin.Show();
+            frmLogin frmLoginAdmin = new frmLogin();
+            frmLoginAdmin.Show();
             this.Hide();
         }
     }

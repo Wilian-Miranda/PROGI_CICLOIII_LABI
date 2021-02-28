@@ -71,8 +71,8 @@ namespace LaboratorioProgramacionUno
 
         #endregion
 
-        private System.Windows.Forms.Button btnUsuario;
-        private System.Windows.Forms.Button btnAdministrador;
+        public System.Windows.Forms.Button btnUsuario;
+        public System.Windows.Forms.Button btnAdministrador;
     }
 }
 
