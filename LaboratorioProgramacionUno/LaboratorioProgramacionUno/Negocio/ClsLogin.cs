@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace LaboratorioProgramacionUno.Negocio
 {
@@ -12,29 +13,39 @@ namespace LaboratorioProgramacionUno.Negocio
     {
         ClsUsuarios clsUser = new ClsUsuarios();
         ClsAdministradores clsAdmin = new ClsAdministradores();
-        public int acceso(ClsEntidades entidad)
+        public Boolean acceso1(ClsEntidades entidad)
         {
-            int estado = 0;
+            Boolean b = false;
 
-            clsUser.usuarios = clsUser.usuarios.Distinct().ToArray();
-            clsUser.userPasswords = clsUser.userPasswords.Distinct().ToArray();
+            //clsUser.usuarios = clsUser.usuarios.Distinct().ToArray();
+            //clsUser.userPasswords = clsUser.userPasswords.Distinct().ToArray();
 
             for (int i = 0; i < clsUser.usuarios.Length; i++)
             {
                 if (entidad.User.Equals(clsUser.usuarios[i]) && entidad.UserPass.Equals(clsUser.userPasswords[i]))
                 {
-                    estado = 1;
-                }
-
-                if (entidad.Admin.Equals(clsAdmin.administradores[i]) && entidad.AdminPass.Equals(clsAdmin.adminPasswords[i]))
-                {
-                    estado = 2;
+                    b = true;
                 }
 
             }
 
-            return estado;
+            return b;
 
+        }
+
+        public Boolean acceso2(ClsEntidades entidad)
+        {
+            Boolean a = false;
+            for (int i = 0; i < clsAdmin.administradores.Length; i++)
+            {
+                if (entidad.Admin.Equals(clsAdmin.administradores[i]) && entidad.AdminPass.Equals(clsAdmin.adminPasswords[i]))
+                {
+                    a = true;
+                }
+
+            }
+
+            return a;
         }
     }
 }

@@ -19,66 +19,69 @@ namespace LaboratorioProgramacionUno.VIstas
             InitializeComponent();
         }
 
+        public Boolean estadoU;
+
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            ClsEntidades clsEntidad = new ClsEntidades();
-            ClsLogin clsLogin = new ClsLogin();
-            ClsLoginAdmin clsLoginAdmin = new ClsLoginAdmin();
-            Form1 frmMenu = new Form1();
+            //ClsLoginAdmin clsLoginAdmin = new ClsLoginAdmin();
+            //Form1 frmMenu = new Form1();
             frmOperaciones _frmOperaciones = new frmOperaciones();
 
-            clsEntidad.User = txtUser.Text;
-            clsEntidad.UserPass = txtPass.Text;
 
-            clsEntidad.Admin = txtUser.Text;
-            clsEntidad.AdminPass = txtPass.Text;
 
-            int acceder = clsLogin.acceso(clsEntidad);
             //int accederAdmin = clsLoginAdmin.accesoAdmin(clsEntidad);
 
-            if (clsEntidad.Estado == 1)
-            {
-                if(acceder == 1)
-                {
-                    MessageBox.Show("Bienvenido " + txtUser.Text);
-                    _frmOperaciones.usuarioEstado = txtUser.Text;
-                    _frmOperaciones.Show();
-                    this.Hide();
-                    _frmOperaciones.txtIVA.Enabled = false;
-                    _frmOperaciones.txtNombreProducto.Enabled = false;
-                }
-                
-                else if(acceder == 2)
-                {
-                    MessageBox.Show("Error");
-                }
-            }
-
-            else if (clsEntidad.Estado == 2)
-            {
-                if (acceder == 2)
-                {
-                    MessageBox.Show("Bienvenido " + txtUser.Text.ToString());
-                    _frmOperaciones.usuarioEstado = txtUser.Text;
-                    _frmOperaciones.Show();
-                    this.Hide();
-                }
-
-                else
-                {
-                    MessageBox.Show("Error");
-                }
-            }
-
-            else if ((this.txtUser.Text == "") && (this.txtPass.Text == ""))
+            if ((this.txtUser.Text == "") && (this.txtPass.Text == ""))
             {
                 MessageBox.Show("Llene los campos");
 
             }
-
             else
             {
-                MessageBox.Show("Credenciales incorrectas");
+                if (estadoU == false)
+                {
+                    ClsEntidades clsEntidad1 = new ClsEntidades();
+                    ClsLogin clsLogin = new ClsLogin();
+                    clsEntidad1.User = txtUser.Text;
+                    clsEntidad1.UserPass = txtPass.Text;
+
+                    Boolean acceder1 = clsLogin.acceso1(clsEntidad1);
+
+                    if (acceder1 == true)
+                    {
+                        MessageBox.Show("Bienvenido " + txtUser.Text);
+                        _frmOperaciones.usuarioEstado = txtUser.Text;
+                        _frmOperaciones.Show();
+                        this.Hide();
+                        _frmOperaciones.txtIVA.Enabled = false;
+                        _frmOperaciones.txtNombreProducto.Enabled = false;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o contraseña incorrecta");
+                    }
+                }
+                else
+                {
+                    ClsEntidades clsEntidad2 = new ClsEntidades();
+                    ClsLogin clsLogin2 = new ClsLogin();
+                    clsEntidad2.Admin = txtUser.Text;
+                    clsEntidad2.AdminPass = txtPass.Text;
+
+                    Boolean acceder2 = clsLogin2.acceso2(clsEntidad2);
+
+                    if (acceder2 == true)
+                    {
+                        MessageBox.Show("Bienvenido " + txtUser.Text);
+                        _frmOperaciones.usuarioEstado = txtUser.Text;
+                        _frmOperaciones.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o contraseña incorrecta");
+                    }
+                }
             }
         }
 
@@ -94,5 +97,6 @@ namespace LaboratorioProgramacionUno.VIstas
                 btnEntrar.PerformClick();
             }
         }
+
     }
 }

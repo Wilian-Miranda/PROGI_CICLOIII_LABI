@@ -12,12 +12,10 @@ namespace LaboratorioProgramacionUno.Dominio
         private string userPass;
         private string admin;
         private string adminPass;
-        private int estado;
 
         public string User { get => user; set => user = value; }
         public string UserPass { get => userPass; set => userPass = value; }
         public string Admin { get => admin; set => admin = value; }
         public string AdminPass { get => adminPass; set => adminPass = value; }
-        public int Estado { get => estado; set => estado = value; }
     }
 }

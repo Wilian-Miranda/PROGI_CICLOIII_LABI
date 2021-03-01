@@ -50,7 +50,6 @@
     <Compile Include="DAO\ClsUsuarios.cs" />
     <Compile Include="Dominio\ClsEntidades.cs" />
     <Compile Include="Negocio\ClsLogin.cs" />
-    <Compile Include="Negocio\ClsLoginAdmin.cs" />
     <Compile Include="Vistas\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>

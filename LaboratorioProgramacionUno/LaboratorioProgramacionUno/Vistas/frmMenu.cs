@@ -24,20 +24,19 @@ namespace LaboratorioProgramacionUno
         {
 
         }
-
         public void btnUsuario_Click(object sender, EventArgs e)
         {
-                clsEntidades.Estado = 1;
-                frmLogin frmLoginUser = new frmLogin();
-                frmLoginUser.Show();
-                this.Hide();
+            frmLogin frmLoginUser = new frmLogin();
+            frmLoginUser.estadoU = false;
+            frmLoginUser.Show();
+            this.Hide();
         }
 
         public void btnAdministrador_Click(object sender, EventArgs e)
         {
-            clsEntidades.Estado = 2;
-            frmLogin frmLoginAdmin = new frmLogin();
-            frmLoginAdmin.Show();
+            frmLogin frmLoginUser = new frmLogin();
+            frmLoginUser.estadoU = true;
+            frmLoginUser.Show();
             this.Hide();
             
         }
