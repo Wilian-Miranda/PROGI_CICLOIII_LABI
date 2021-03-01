@@ -1,0 +1,17 @@
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\bin\Debug\netcoreapp3.1\Formularios.exe
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\bin\Debug\netcoreapp3.1\Formularios.deps.json
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\bin\Debug\netcoreapp3.1\Formularios.runtimeconfig.json
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\bin\Debug\netcoreapp3.1\Formularios.runtimeconfig.dev.json
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\bin\Debug\netcoreapp3.1\Formularios.dll
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\bin\Debug\netcoreapp3.1\Formularios.pdb
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.csprojAssemblyReference.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.csproj.GenerateResource.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.AssemblyInfoInputs.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.AssemblyInfo.cs
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.dll
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.pdb
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.genruntimeconfig.cache
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.Vistas.frmLOGIN.resources
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.frmMenu.resources
+C:\Users\recin\Desktop\CARPETAS DE TRABAJO\CICLO III 2021\PROGRAMACION_1\Formularios\obj\Debug\netcoreapp3.1\Formularios.Vistas.frmOperaciones.resources
