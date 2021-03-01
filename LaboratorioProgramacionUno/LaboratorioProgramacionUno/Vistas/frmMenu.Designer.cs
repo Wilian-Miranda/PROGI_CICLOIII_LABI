@@ -32,6 +32,7 @@ namespace LaboratorioProgramacionUno
             this.btnUsuario = new System.Windows.Forms.Button();
             this.btnAdministrador = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.lblEstado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnUsuario
@@ -65,12 +66,21 @@ namespace LaboratorioProgramacionUno
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Location = new System.Drawing.Point(10, 9);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(0, 13);
+            this.lblEstado.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAdministrador);
             this.Controls.Add(this.btnUsuario);
@@ -80,6 +90,7 @@ namespace LaboratorioProgramacionUno
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -88,6 +99,7 @@ namespace LaboratorioProgramacionUno
         public System.Windows.Forms.Button btnUsuario;
         public System.Windows.Forms.Button btnAdministrador;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Label lblEstado;
     }
 }
 

@@ -36,7 +36,7 @@ namespace LaboratorioProgramacionUno.VIstas
             int acceder = clsLogin.acceso(clsEntidad);
             //int accederAdmin = clsLoginAdmin.accesoAdmin(clsEntidad);
 
-            if (frmMenu.estado == 1)
+            if (clsEntidad.Estado == 1)
             {
                 if(acceder == 1)
                 {
@@ -54,7 +54,7 @@ namespace LaboratorioProgramacionUno.VIstas
                 }
             }
 
-            else if (frmMenu.estado == 2)
+            else if (clsEntidad.Estado == 2)
             {
                 if (acceder == 2)
                 {
