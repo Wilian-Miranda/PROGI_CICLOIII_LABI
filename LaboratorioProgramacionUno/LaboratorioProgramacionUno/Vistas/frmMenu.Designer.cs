@@ -40,10 +40,10 @@ namespace LaboratorioProgramacionUno
             this.btnUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnUsuario.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuario.Location = new System.Drawing.Point(187, 191);
+            this.btnUsuario.Font = new System.Drawing.Font("Algerian", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuario.Location = new System.Drawing.Point(252, 186);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(215, 57);
+            this.btnUsuario.Size = new System.Drawing.Size(124, 57);
             this.btnUsuario.TabIndex = 0;
             this.btnUsuario.Text = "Usuario";
             this.btnUsuario.UseVisualStyleBackColor = true;
@@ -54,10 +54,10 @@ namespace LaboratorioProgramacionUno
             this.btnAdministrador.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAdministrador.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministrador.Location = new System.Drawing.Point(431, 191);
+            this.btnAdministrador.Font = new System.Drawing.Font("Algerian", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdministrador.Location = new System.Drawing.Point(469, 186);
             this.btnAdministrador.Name = "btnAdministrador";
-            this.btnAdministrador.Size = new System.Drawing.Size(205, 57);
+            this.btnAdministrador.Size = new System.Drawing.Size(114, 57);
             this.btnAdministrador.TabIndex = 1;
             this.btnAdministrador.Text = "Administrador";
             this.btnAdministrador.UseVisualStyleBackColor = true;
@@ -85,6 +85,8 @@ namespace LaboratorioProgramacionUno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblEstado);
