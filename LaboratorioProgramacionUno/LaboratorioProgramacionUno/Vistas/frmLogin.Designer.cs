@@ -40,20 +40,20 @@ namespace LaboratorioProgramacionUno.VIstas
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.Location = new System.Drawing.Point(237, 136);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(86, 25);
+            this.lblUser.Size = new System.Drawing.Size(82, 24);
             this.lblUser.TabIndex = 0;
             this.lblUser.Text = "Usuario";
             // 
             // lblPass
             // 
             this.lblPass.AutoSize = true;
-            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPass.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPass.Location = new System.Drawing.Point(237, 209);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(106, 25);
+            this.lblPass.Size = new System.Drawing.Size(103, 24);
             this.lblPass.TabIndex = 1;
             this.lblPass.Text = "Password";
             // 
@@ -77,9 +77,11 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // btnEntrar
             // 
+            this.btnEntrar.AutoSize = true;
+            this.btnEntrar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.Location = new System.Drawing.Point(413, 280);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(128, 23);
+            this.btnEntrar.Size = new System.Drawing.Size(128, 30);
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -100,6 +102,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);

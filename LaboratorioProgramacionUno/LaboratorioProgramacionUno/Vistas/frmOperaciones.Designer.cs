@@ -71,6 +71,7 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // txtIVA
             // 
+            this.txtIVA.BackColor = System.Drawing.Color.DodgerBlue;
             this.txtIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIVA.Location = new System.Drawing.Point(236, 320);
             this.txtIVA.Name = "txtIVA";
@@ -81,6 +82,9 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // btnCalcular
             // 
+            this.btnCalcular.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCalcular.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(308, 516);
             this.btnCalcular.Name = "btnCalcular";
@@ -203,6 +207,7 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // txtNombreProducto
             // 
+            this.txtNombreProducto.BackColor = System.Drawing.Color.DodgerBlue;
             this.txtNombreProducto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreProducto.Location = new System.Drawing.Point(236, 367);
             this.txtNombreProducto.Name = "txtNombreProducto";
@@ -212,6 +217,7 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // txtPrecioDelProducto
             // 
+            this.txtPrecioDelProducto.BackColor = System.Drawing.Color.DodgerBlue;
             this.txtPrecioDelProducto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrecioDelProducto.Location = new System.Drawing.Point(236, 418);
             this.txtPrecioDelProducto.Name = "txtPrecioDelProducto";
@@ -222,6 +228,7 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // txtCantidad
             // 
+            this.txtCantidad.BackColor = System.Drawing.Color.DodgerBlue;
             this.txtCantidad.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidad.Location = new System.Drawing.Point(236, 467);
             this.txtCantidad.Name = "txtCantidad";
@@ -308,6 +315,7 @@ namespace LaboratorioProgramacionUno.VIstas
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.DodgerBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.column1,
@@ -332,6 +340,7 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(793, 577);
             this.Controls.Add(this.dataGridView1);
