@@ -65,8 +65,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label1.Location = new System.Drawing.Point(111, 454);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label1.Location = new System.Drawing.Point(74, 328);
+>>>>>>> Stashed changes
 =======
             this.label1.Location = new System.Drawing.Point(74, 328);
 >>>>>>> Stashed changes
@@ -84,8 +88,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txtIVA.Location = new System.Drawing.Point(354, 443);
             this.txtIVA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.txtIVA.Location = new System.Drawing.Point(236, 320);
+>>>>>>> Stashed changes
 =======
             this.txtIVA.Location = new System.Drawing.Point(236, 320);
 >>>>>>> Stashed changes
@@ -102,8 +110,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.btnCalcular.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btnCalcular.Location = new System.Drawing.Point(462, 714);
             this.btnCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.btnCalcular.Location = new System.Drawing.Point(308, 516);
+>>>>>>> Stashed changes
 =======
             this.btnCalcular.Location = new System.Drawing.Point(308, 516);
 >>>>>>> Stashed changes
@@ -123,8 +135,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label2.Location = new System.Drawing.Point(111, 519);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label2.Location = new System.Drawing.Point(74, 375);
+>>>>>>> Stashed changes
 =======
             this.label2.Location = new System.Drawing.Point(74, 375);
 >>>>>>> Stashed changes
@@ -142,8 +158,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label3.Location = new System.Drawing.Point(111, 590);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label3.Location = new System.Drawing.Point(74, 426);
+>>>>>>> Stashed changes
 =======
             this.label3.Location = new System.Drawing.Point(74, 426);
 >>>>>>> Stashed changes
@@ -161,8 +181,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label4.Location = new System.Drawing.Point(880, 721);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label4.Location = new System.Drawing.Point(587, 521);
+>>>>>>> Stashed changes
 =======
             this.label4.Location = new System.Drawing.Point(587, 521);
 >>>>>>> Stashed changes
@@ -180,8 +204,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label5.Location = new System.Drawing.Point(814, 647);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label5.Location = new System.Drawing.Point(543, 467);
+>>>>>>> Stashed changes
 =======
             this.label5.Location = new System.Drawing.Point(543, 467);
 >>>>>>> Stashed changes
@@ -199,8 +227,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label6.Location = new System.Drawing.Point(873, 590);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label6.Location = new System.Drawing.Point(582, 426);
+>>>>>>> Stashed changes
 =======
             this.label6.Location = new System.Drawing.Point(582, 426);
 >>>>>>> Stashed changes
@@ -218,8 +250,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label7.Location = new System.Drawing.Point(880, 519);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label7.Location = new System.Drawing.Point(587, 375);
+>>>>>>> Stashed changes
 =======
             this.label7.Location = new System.Drawing.Point(587, 375);
 >>>>>>> Stashed changes
@@ -237,8 +273,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label8.Location = new System.Drawing.Point(813, 454);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label8.Location = new System.Drawing.Point(542, 328);
+>>>>>>> Stashed changes
 =======
             this.label8.Location = new System.Drawing.Point(542, 328);
 >>>>>>> Stashed changes
@@ -290,8 +330,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label12.Location = new System.Drawing.Point(111, 658);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label12.Location = new System.Drawing.Point(74, 475);
+>>>>>>> Stashed changes
 =======
             this.label12.Location = new System.Drawing.Point(74, 475);
 >>>>>>> Stashed changes
@@ -309,8 +353,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtNombreProducto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txtNombreProducto.Location = new System.Drawing.Point(354, 508);
             this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.txtNombreProducto.Location = new System.Drawing.Point(236, 367);
+>>>>>>> Stashed changes
 =======
             this.txtNombreProducto.Location = new System.Drawing.Point(236, 367);
 >>>>>>> Stashed changes
@@ -327,8 +375,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtPrecioDelProducto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txtPrecioDelProducto.Location = new System.Drawing.Point(354, 579);
             this.txtPrecioDelProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.txtPrecioDelProducto.Location = new System.Drawing.Point(236, 418);
+>>>>>>> Stashed changes
 =======
             this.txtPrecioDelProducto.Location = new System.Drawing.Point(236, 418);
 >>>>>>> Stashed changes
@@ -340,8 +392,11 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtPrecioDelProducto.TabIndex = 16;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txtPrecioDelProducto.Text = "100";
             this.txtPrecioDelProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioDelProducto_KeyPress);
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -353,8 +408,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtCantidad.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txtCantidad.Location = new System.Drawing.Point(354, 647);
             this.txtCantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.txtCantidad.Location = new System.Drawing.Point(236, 467);
+>>>>>>> Stashed changes
 =======
             this.txtCantidad.Location = new System.Drawing.Point(236, 467);
 >>>>>>> Stashed changes
@@ -364,6 +423,7 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(250, 26);
             this.txtCantidad.TabIndex = 17;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.txtCantidad.Text = "1";
@@ -426,6 +486,8 @@ namespace LaboratorioProgramacionUno.VIstas
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             // 
             // lblProductoNombre
             // 
@@ -477,6 +539,9 @@ namespace LaboratorioProgramacionUno.VIstas
             this.lblTotalConDescuento.TabIndex = 22;
             this.lblTotalConDescuento.Text = "- - -";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -487,8 +552,12 @@ namespace LaboratorioProgramacionUno.VIstas
             this.label18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label18.Location = new System.Drawing.Point(832, 672);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+=======
+            this.label18.Location = new System.Drawing.Point(555, 485);
+>>>>>>> Stashed changes
 =======
             this.label18.Location = new System.Drawing.Point(555, 485);
 >>>>>>> Stashed changes
@@ -529,7 +598,11 @@ namespace LaboratorioProgramacionUno.VIstas
             this.dataGridView1.Name = "dataGridView1";
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.dataGridView1.Size = new System.Drawing.Size(951, 208);
+=======
+            this.dataGridView1.Size = new System.Drawing.Size(634, 150);
+>>>>>>> Stashed changes
 =======
             this.dataGridView1.Size = new System.Drawing.Size(634, 150);
 >>>>>>> Stashed changes
@@ -557,7 +630,11 @@ namespace LaboratorioProgramacionUno.VIstas
             this.CancelButton = this.button1;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1190, 799);
+=======
+            this.ClientSize = new System.Drawing.Size(793, 577);
+>>>>>>> Stashed changes
 =======
             this.ClientSize = new System.Drawing.Size(793, 577);
 >>>>>>> Stashed changes

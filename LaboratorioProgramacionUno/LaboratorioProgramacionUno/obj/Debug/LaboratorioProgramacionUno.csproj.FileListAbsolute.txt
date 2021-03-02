@@ -1,5 +1,6 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
 C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
 C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
@@ -32,6 +33,10 @@ C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioPr
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
 >>>>>>> Stashed changes
+=======
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+>>>>>>> Stashed changes
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
@@ -44,8 +49,11 @@ C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioPr
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
 C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

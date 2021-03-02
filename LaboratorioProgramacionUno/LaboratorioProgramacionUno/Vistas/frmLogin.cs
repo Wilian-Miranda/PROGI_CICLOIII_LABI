@@ -44,6 +44,10 @@ namespace LaboratorioProgramacionUno.VIstas
                     ClsLogin clsLogin = new ClsLogin();
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -65,6 +69,10 @@ namespace LaboratorioProgramacionUno.VIstas
                         _frmOperaciones.txtNombreProducto.Enabled = false;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -116,6 +124,7 @@ namespace LaboratorioProgramacionUno.VIstas
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -128,6 +137,8 @@ namespace LaboratorioProgramacionUno.VIstas
                 btnEntrar.PerformClick();
             }
         }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
