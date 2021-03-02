@@ -14,6 +14,8 @@ namespace LaboratorioProgramacionUno.VIstas
 {
     public partial class frmOperaciones : Form
     {
+        ClsOperacionesTablaDescuentos operacion = new ClsOperacionesTablaDescuentos();
+        ClsDescriptorTablaDescuentos datos = new ClsDescriptorTablaDescuentos();
         public frmOperaciones()
         {
             InitializeComponent();
@@ -29,6 +31,8 @@ namespace LaboratorioProgramacionUno.VIstas
             dataGridView1.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR o IGUAL A 100 O MENOR QUE 101 TENDRA UN DESUENTO DEL 0.10 ", ">= 100 and <101");
             dataGridView1.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR o IGUAL 101 Y MENOR QUE 150 TENDRA UN DESUENTO DEL 0.20 ", ">101 and <150");
             dataGridView1.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR A 150 TENDRA UN DESUENTO DEL 0.50 ", ">150");
+
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -50,8 +54,6 @@ namespace LaboratorioProgramacionUno.VIstas
             }
             else
             {
-                ClsOperacionesTablaDescuentos operacion = new ClsOperacionesTablaDescuentos();
-                ClsDescriptorTablaDescuentos datos = new ClsDescriptorTablaDescuentos();
 
                 datos.NombreProducto = txtNombreProducto.Text;
                 datos.Iva = Convert.ToDouble(txtIVA.Text);
@@ -60,7 +62,6 @@ namespace LaboratorioProgramacionUno.VIstas
 
                 //MessageBox.Show(datos.Precio.ToString() + "/n" + datos.Cantidad.ToString() +
                 //     " Total = " + (datos.Precio*datos.Cantidad).ToString());
-
                 operacion.funcionesTabla(datos);
             }
 
@@ -69,6 +70,27 @@ namespace LaboratorioProgramacionUno.VIstas
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void frmOperaciones_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void txtPrecioDelProducto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btnCalcular.PerformClick();
+            }
+        }
+
+        private void txtCantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btnCalcular.PerformClick();
+            }
         }
     }
 }
