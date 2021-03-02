@@ -42,6 +42,10 @@ namespace LaboratorioProgramacionUno.VIstas
                 {
                     ClsEntidades clsEntidad1 = new ClsEntidades();
                     ClsLogin clsLogin = new ClsLogin();
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
                     clsEntidad1.User = txtUser.Text;
                     clsEntidad1.UserPass = txtPass.Text;
 
@@ -55,6 +59,10 @@ namespace LaboratorioProgramacionUno.VIstas
                         this.Hide();
                         _frmOperaciones.txtIVA.Enabled = false;
                         _frmOperaciones.txtNombreProducto.Enabled = false;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
                     }
                     else
                     {
@@ -98,6 +106,7 @@ namespace LaboratorioProgramacionUno.VIstas
             }
         }
 
+<<<<<<< Updated upstream
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -110,5 +119,7 @@ namespace LaboratorioProgramacionUno.VIstas
                 btnEntrar.PerformClick();
             }
         }
+=======
+>>>>>>> Stashed changes
     }
 }
