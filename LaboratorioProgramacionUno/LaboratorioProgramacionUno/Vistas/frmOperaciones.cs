@@ -35,7 +35,10 @@ namespace LaboratorioProgramacionUno.VIstas
             dataGridView1.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR A 150 TENDRA UN DESUENTO DEL 0.50 ", ">150");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             if (lo.estadoU== false)
             {
                 txtNombreProducto.Text = "LAPTOP";
@@ -43,6 +46,9 @@ namespace LaboratorioProgramacionUno.VIstas
                 txtCantidad.Text = "1";
                 txtPrecioDelProducto.Text = "100";
             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             
         }
@@ -67,7 +73,10 @@ namespace LaboratorioProgramacionUno.VIstas
             else
             {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                 ClsDescriptorTablaDescuentos datos = new ClsDescriptorTablaDescuentos();
 >>>>>>> Stashed changes
 
@@ -77,10 +86,13 @@ namespace LaboratorioProgramacionUno.VIstas
                 datos.Cantidad = Convert.ToInt32(txtCantidad.Text);
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 //MessageBox.Show(datos.Precio.ToString() + "/n" + datos.Cantidad.ToString() +
                 //     " Total = " + (datos.Precio*datos.Cantidad).ToString());
                 operacion.funcionesTabla(datos);
 =======
+=======
+>>>>>>> Stashed changes
 
                 funcionesTabla(datos);
 
@@ -124,6 +136,7 @@ namespace LaboratorioProgramacionUno.VIstas
                 lblTotalSinDescuentoMasIVA.Text = ((precio * cantidad) + ((precio * cantidad) * iva)).ToString();
                 double TotalSinDescuento = ((precio * cantidad) + ((precio * cantidad) * iva));
                 lblTotalConDescuento.Text = (TotalSinDescuento - (TotalSinDescuento * 0.10)).ToString();
+<<<<<<< Updated upstream
             }
             else if (tablaAtributos.Precio >= 101 && tablaAtributos.Precio < 150)
             {
@@ -135,6 +148,18 @@ namespace LaboratorioProgramacionUno.VIstas
                 lblTotalConDescuento.Text = (TotalSinDescuento - (TotalSinDescuento * 0.20)).ToString();
 >>>>>>> Stashed changes
             }
+=======
+            }
+            else if (tablaAtributos.Precio >= 101 && tablaAtributos.Precio < 150)
+            {
+                lblProductoNombre.Text = producto;
+                lblTotalSinIVA.Text = (precio * cantidad).ToString();
+                lblIVAaAgregar.Text = ((precio * cantidad) * iva).ToString();
+                lblTotalSinDescuentoMasIVA.Text = ((precio * cantidad) + ((precio * cantidad) * iva)).ToString();
+                double TotalSinDescuento = ((precio * cantidad) + ((precio * cantidad) * iva));
+                lblTotalConDescuento.Text = (TotalSinDescuento - (TotalSinDescuento * 0.20)).ToString();
+            }
+>>>>>>> Stashed changes
             else
             {
                 lblProductoNombre.Text = producto;
@@ -154,6 +179,7 @@ namespace LaboratorioProgramacionUno.VIstas
 
         }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         private void frmOperaciones_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -175,6 +201,9 @@ namespace LaboratorioProgramacionUno.VIstas
                 btnCalcular.PerformClick();
             }
         }
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes

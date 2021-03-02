@@ -38,6 +38,7 @@ namespace LaboratorioProgramacionUno
             // btnUsuario
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btnUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -47,10 +48,15 @@ namespace LaboratorioProgramacionUno
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(186, 79);
 =======
+=======
+>>>>>>> Stashed changes
             this.btnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuario.Location = new System.Drawing.Point(252, 186);
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(124, 57);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.btnUsuario.TabIndex = 0;
             this.btnUsuario.Text = "Usuario";
@@ -59,6 +65,7 @@ namespace LaboratorioProgramacionUno
             // 
             // btnAdministrador
             // 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.btnAdministrador.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
@@ -73,6 +80,11 @@ namespace LaboratorioProgramacionUno
             this.btnAdministrador.Name = "btnAdministrador";
             this.btnAdministrador.Size = new System.Drawing.Size(114, 57);
 >>>>>>> Stashed changes
+=======
+            this.btnAdministrador.Location = new System.Drawing.Point(469, 186);
+            this.btnAdministrador.Name = "btnAdministrador";
+            this.btnAdministrador.Size = new System.Drawing.Size(114, 57);
+>>>>>>> Stashed changes
             this.btnAdministrador.TabIndex = 1;
             this.btnAdministrador.Text = "Administrador";
             this.btnAdministrador.UseVisualStyleBackColor = true;
@@ -82,8 +94,12 @@ namespace LaboratorioProgramacionUno
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.button1.Location = new System.Drawing.Point(20, 564);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.button1.Location = new System.Drawing.Point(13, 407);
+>>>>>>> Stashed changes
 =======
             this.button1.Location = new System.Drawing.Point(13, 407);
 >>>>>>> Stashed changes
@@ -97,10 +113,16 @@ namespace LaboratorioProgramacionUno
             // 
             this.lblEstado.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.lblEstado.Location = new System.Drawing.Point(15, 12);
             this.lblEstado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(0, 18);
+=======
+            this.lblEstado.Location = new System.Drawing.Point(10, 9);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(0, 13);
+>>>>>>> Stashed changes
 =======
             this.lblEstado.Location = new System.Drawing.Point(10, 9);
             this.lblEstado.Name = "lblEstado";
@@ -111,24 +133,33 @@ namespace LaboratorioProgramacionUno
             // Form1
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(1200, 623);
 =======
+=======
+>>>>>>> Stashed changes
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAdministrador);
             this.Controls.Add(this.btnUsuario);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             this.Name = "Form1";
