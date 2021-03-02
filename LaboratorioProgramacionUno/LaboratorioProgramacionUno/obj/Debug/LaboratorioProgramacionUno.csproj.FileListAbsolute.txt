@@ -1,24 +1,48 @@
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csprojAssemblyReference.cache
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmLogin.resources
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Form1.resources
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Properties.Resources.resources
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmOperaciones.resources
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.GenerateResource.cache
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
-C:\Users\recin\Documents\GitHub\ArreglandoConflicto\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csprojAssemblyReference.cache
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmLogin.resources
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Form1.resources
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Properties.Resources.resources
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmOperaciones.resources
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.GenerateResource.cache
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
-C:\Users\recin\Documents\GitHub\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csprojAssemblyReference.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmLogin.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Form1.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Properties.Resources.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmOperaciones.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.GenerateResource.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csprojAssemblyReference.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmLogin.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Form1.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Properties.Resources.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmOperaciones.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.GenerateResource.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csprojAssemblyReference.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmLogin.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Form1.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Properties.Resources.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmOperaciones.resources
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.GenerateResource.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Jose\Desktop\PROG I CICLO 3\PROYECTOS\PROGI_CICLOIII_LABI\Arreglando conflictos\PROGI_CICLOIII_LABI - copia (2)\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe.config
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\bin\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csprojAssemblyReference.cache
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmLogin.resources
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Form1.resources
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Properties.Resources.resources
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VIstas.frmOperaciones.resources
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.GenerateResource.cache
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
+C:\Users\Manuel Perlera\Desktop\PROGI_CICLOIII_LAB1\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb

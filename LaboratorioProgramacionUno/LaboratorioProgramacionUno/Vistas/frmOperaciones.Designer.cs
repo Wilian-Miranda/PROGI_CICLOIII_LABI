@@ -46,11 +46,11 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtNombreProducto = new System.Windows.Forms.TextBox();
             this.txtPrecioDelProducto = new System.Windows.Forms.TextBox();
             this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.lbProductoNombre = new System.Windows.Forms.Label();
-            this.lbTotalSinIVA = new System.Windows.Forms.Label();
-            this.lbIVAaAgregar = new System.Windows.Forms.Label();
-            this.lbTotalSinDescuentoMasIVA = new System.Windows.Forms.Label();
-            this.lbTotalConDescuento = new System.Windows.Forms.Label();
+            this.lblProductoNombre = new System.Windows.Forms.Label();
+            this.lblTotalSinIVA = new System.Windows.Forms.Label();
+            this.lblIVAaAgregar = new System.Windows.Forms.Label();
+            this.lblTotalSinDescuentoMasIVA = new System.Windows.Forms.Label();
+            this.lblTotalConDescuento = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -61,6 +61,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(74, 328);
@@ -71,20 +73,19 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // txtIVA
             // 
-            this.txtIVA.BackColor = System.Drawing.Color.DodgerBlue;
+            this.txtIVA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIVA.Location = new System.Drawing.Point(236, 320);
             this.txtIVA.Name = "txtIVA";
             this.txtIVA.Size = new System.Drawing.Size(168, 26);
             this.txtIVA.TabIndex = 1;
-            this.txtIVA.Text = "0.13";
             this.txtIVA.TextChanged += new System.EventHandler(this.txtIVA_TextChanged);
+            this.txtIVA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCalcular.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCalcular.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(308, 516);
             this.btnCalcular.Name = "btnCalcular";
@@ -96,6 +97,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(74, 375);
@@ -106,6 +109,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(74, 426);
@@ -116,6 +121,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(587, 521);
@@ -126,6 +133,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(543, 467);
@@ -136,6 +145,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(582, 426);
@@ -146,6 +157,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label7
             // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(587, 375);
@@ -156,6 +169,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label8
             // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(542, 328);
@@ -166,6 +181,9 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label9
             // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(69, 54);
@@ -176,6 +194,7 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label10
             // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(590, 37);
@@ -186,6 +205,7 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // lblUsuario
             // 
+            this.lblUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblUsuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -198,6 +218,8 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // label12
             // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(74, 475);
@@ -208,88 +230,101 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.BackColor = System.Drawing.Color.DodgerBlue;
+            this.txtNombreProducto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtNombreProducto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreProducto.Location = new System.Drawing.Point(236, 367);
             this.txtNombreProducto.Name = "txtNombreProducto";
             this.txtNombreProducto.Size = new System.Drawing.Size(168, 26);
             this.txtNombreProducto.TabIndex = 15;
-            this.txtNombreProducto.Text = "LAPTOP";
+            this.txtNombreProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // txtPrecioDelProducto
             // 
-            this.txtPrecioDelProducto.BackColor = System.Drawing.Color.DodgerBlue;
+            this.txtPrecioDelProducto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtPrecioDelProducto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrecioDelProducto.Location = new System.Drawing.Point(236, 418);
             this.txtPrecioDelProducto.Name = "txtPrecioDelProducto";
             this.txtPrecioDelProducto.Size = new System.Drawing.Size(168, 26);
             this.txtPrecioDelProducto.TabIndex = 16;
-            this.txtPrecioDelProducto.Text = "100";
-            this.txtPrecioDelProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioDelProducto_KeyPress);
+            this.txtPrecioDelProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // txtCantidad
             // 
-            this.txtCantidad.BackColor = System.Drawing.Color.DodgerBlue;
+            this.txtCantidad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtCantidad.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidad.Location = new System.Drawing.Point(236, 467);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(168, 26);
             this.txtCantidad.TabIndex = 17;
-            this.txtCantidad.Text = "1";
             this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
-            // lbProductoNombre
+            // lblProductoNombre
             // 
-            this.lbProductoNombre.AutoSize = true;
-            this.lbProductoNombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbProductoNombre.Location = new System.Drawing.Point(634, 328);
-            this.lbProductoNombre.Name = "lbProductoNombre";
-            this.lbProductoNombre.Size = new System.Drawing.Size(31, 18);
-            this.lbProductoNombre.TabIndex = 18;
-            this.lbProductoNombre.Text = "- - -";
+            this.lblProductoNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblProductoNombre.AutoSize = true;
+            this.lblProductoNombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProductoNombre.Location = new System.Drawing.Point(634, 328);
+            this.lblProductoNombre.Name = "lblProductoNombre";
+            this.lblProductoNombre.Size = new System.Drawing.Size(31, 18);
+            this.lblProductoNombre.TabIndex = 18;
+            this.lblProductoNombre.Text = "- - -";
             // 
-            // lbTotalSinIVA
+            // lblTotalSinIVA
             // 
-            this.lbTotalSinIVA.AutoSize = true;
-            this.lbTotalSinIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTotalSinIVA.Location = new System.Drawing.Point(695, 375);
-            this.lbTotalSinIVA.Name = "lbTotalSinIVA";
-            this.lbTotalSinIVA.Size = new System.Drawing.Size(31, 18);
-            this.lbTotalSinIVA.TabIndex = 19;
-            this.lbTotalSinIVA.Text = "- - -";
+            this.lblTotalSinIVA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotalSinIVA.AutoSize = true;
+            this.lblTotalSinIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalSinIVA.Location = new System.Drawing.Point(695, 375);
+            this.lblTotalSinIVA.Name = "lblTotalSinIVA";
+            this.lblTotalSinIVA.Size = new System.Drawing.Size(31, 18);
+            this.lblTotalSinIVA.TabIndex = 19;
+            this.lblTotalSinIVA.Text = "- - -";
             // 
-            // lbIVAaAgregar
+            // lblIVAaAgregar
             // 
-            this.lbIVAaAgregar.AutoSize = true;
-            this.lbIVAaAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbIVAaAgregar.Location = new System.Drawing.Point(695, 426);
-            this.lbIVAaAgregar.Name = "lbIVAaAgregar";
-            this.lbIVAaAgregar.Size = new System.Drawing.Size(31, 18);
-            this.lbIVAaAgregar.TabIndex = 20;
-            this.lbIVAaAgregar.Text = "- - -";
+            this.lblIVAaAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblIVAaAgregar.AutoSize = true;
+            this.lblIVAaAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIVAaAgregar.Location = new System.Drawing.Point(695, 426);
+            this.lblIVAaAgregar.Name = "lblIVAaAgregar";
+            this.lblIVAaAgregar.Size = new System.Drawing.Size(31, 18);
+            this.lblIVAaAgregar.TabIndex = 20;
+            this.lblIVAaAgregar.Text = "- - -";
             // 
-            // lbTotalSinDescuentoMasIVA
+            // lblTotalSinDescuentoMasIVA
             // 
-            this.lbTotalSinDescuentoMasIVA.AutoSize = true;
-            this.lbTotalSinDescuentoMasIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTotalSinDescuentoMasIVA.Location = new System.Drawing.Point(695, 472);
-            this.lbTotalSinDescuentoMasIVA.Name = "lbTotalSinDescuentoMasIVA";
-            this.lbTotalSinDescuentoMasIVA.Size = new System.Drawing.Size(31, 18);
-            this.lbTotalSinDescuentoMasIVA.TabIndex = 21;
-            this.lbTotalSinDescuentoMasIVA.Text = "- - -";
+            this.lblTotalSinDescuentoMasIVA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotalSinDescuentoMasIVA.AutoSize = true;
+            this.lblTotalSinDescuentoMasIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalSinDescuentoMasIVA.Location = new System.Drawing.Point(695, 472);
+            this.lblTotalSinDescuentoMasIVA.Name = "lblTotalSinDescuentoMasIVA";
+            this.lblTotalSinDescuentoMasIVA.Size = new System.Drawing.Size(31, 18);
+            this.lblTotalSinDescuentoMasIVA.TabIndex = 21;
+            this.lblTotalSinDescuentoMasIVA.Text = "- - -";
             // 
-            // lbTotalConDescuento
+            // lblTotalConDescuento
             // 
-            this.lbTotalConDescuento.AutoSize = true;
-            this.lbTotalConDescuento.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTotalConDescuento.Location = new System.Drawing.Point(695, 516);
-            this.lbTotalConDescuento.Name = "lbTotalConDescuento";
-            this.lbTotalConDescuento.Size = new System.Drawing.Size(31, 18);
-            this.lbTotalConDescuento.TabIndex = 22;
-            this.lbTotalConDescuento.Text = "- - -";
+            this.lblTotalConDescuento.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotalConDescuento.AutoSize = true;
+            this.lblTotalConDescuento.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalConDescuento.Location = new System.Drawing.Point(695, 516);
+            this.lblTotalConDescuento.Name = "lblTotalConDescuento";
+            this.lblTotalConDescuento.Size = new System.Drawing.Size(31, 18);
+            this.lblTotalConDescuento.TabIndex = 22;
+            this.lblTotalConDescuento.Text = "- - -";
             // 
             // label18
             // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(555, 485);
@@ -311,12 +346,10 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.DodgerBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.column1,
@@ -341,17 +374,16 @@ namespace LaboratorioProgramacionUno.VIstas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(793, 577);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.lbTotalConDescuento);
-            this.Controls.Add(this.lbTotalSinDescuentoMasIVA);
-            this.Controls.Add(this.lbIVAaAgregar);
-            this.Controls.Add(this.lbTotalSinIVA);
-            this.Controls.Add(this.lbProductoNombre);
+            this.Controls.Add(this.lblTotalConDescuento);
+            this.Controls.Add(this.lblTotalSinDescuentoMasIVA);
+            this.Controls.Add(this.lblIVAaAgregar);
+            this.Controls.Add(this.lblTotalSinIVA);
+            this.Controls.Add(this.lblProductoNombre);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.txtPrecioDelProducto);
             this.Controls.Add(this.txtNombreProducto);
@@ -401,11 +433,11 @@ namespace LaboratorioProgramacionUno.VIstas
         public System.Windows.Forms.TextBox txtIVA;
         public System.Windows.Forms.TextBox txtNombreProducto;
         private System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Label lbProductoNombre;
-        public System.Windows.Forms.Label lbTotalSinIVA;
-        public System.Windows.Forms.Label lbIVAaAgregar;
-        public System.Windows.Forms.Label lbTotalSinDescuentoMasIVA;
-        public System.Windows.Forms.Label lbTotalConDescuento;
+        public System.Windows.Forms.Label lblProductoNombre;
+        public System.Windows.Forms.Label lblTotalSinIVA;
+        public System.Windows.Forms.Label lblIVAaAgregar;
+        public System.Windows.Forms.Label lblTotalSinDescuentoMasIVA;
+        public System.Windows.Forms.Label lblTotalConDescuento;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

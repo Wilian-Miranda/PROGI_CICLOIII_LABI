@@ -51,7 +51,6 @@
     <Compile Include="Dominio\ClsDescriptorTablaDescuentos.cs" />
     <Compile Include="Dominio\ClsEntidades.cs" />
     <Compile Include="Negocio\ClsLogin.cs" />
-    <Compile Include="Negocio\ClsOperacionesTablaDescuentos.cs" />
     <Compile Include="Vistas\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
