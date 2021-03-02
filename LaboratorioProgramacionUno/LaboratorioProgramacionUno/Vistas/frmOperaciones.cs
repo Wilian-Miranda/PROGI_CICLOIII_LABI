@@ -38,7 +38,10 @@ namespace LaboratorioProgramacionUno.VIstas
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -55,6 +58,9 @@ namespace LaboratorioProgramacionUno.VIstas
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -88,7 +94,10 @@ namespace LaboratorioProgramacionUno.VIstas
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -107,10 +116,13 @@ namespace LaboratorioProgramacionUno.VIstas
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 //MessageBox.Show(datos.Precio.ToString() + "/n" + datos.Cantidad.ToString() +
                 //     " Total = " + (datos.Precio*datos.Cantidad).ToString());
                 operacion.funcionesTabla(datos);
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -163,6 +175,9 @@ namespace LaboratorioProgramacionUno.VIstas
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             }
@@ -174,6 +189,7 @@ namespace LaboratorioProgramacionUno.VIstas
                 lblTotalSinDescuentoMasIVA.Text = ((precio * cantidad) + ((precio * cantidad) * iva)).ToString();
                 double TotalSinDescuento = ((precio * cantidad) + ((precio * cantidad) * iva));
                 lblTotalConDescuento.Text = (TotalSinDescuento - (TotalSinDescuento * 0.20)).ToString();
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
             }
@@ -218,6 +234,18 @@ namespace LaboratorioProgramacionUno.VIstas
 
 
 =======
+            }
+>>>>>>> Stashed changes
+=======
+            }
+            else
+            {
+                lblProductoNombre.Text = producto;
+                lblTotalSinIVA.Text = (precio * cantidad).ToString();
+                lblIVAaAgregar.Text = ((precio * cantidad) * iva).ToString();
+                lblTotalSinDescuentoMasIVA.Text = ((precio * cantidad) + ((precio * cantidad) * iva)).ToString();
+                double TotalSinDescuento = ((precio * cantidad) + ((precio * cantidad) * iva));
+                lblTotalConDescuento.Text = (TotalSinDescuento - (TotalSinDescuento * 0.50)).ToString();
             }
 >>>>>>> Stashed changes
 
@@ -230,6 +258,7 @@ namespace LaboratorioProgramacionUno.VIstas
 
         }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -254,6 +283,9 @@ namespace LaboratorioProgramacionUno.VIstas
                 btnCalcular.PerformClick();
             }
         }
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
