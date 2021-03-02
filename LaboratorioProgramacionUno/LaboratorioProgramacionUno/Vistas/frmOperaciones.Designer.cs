@@ -182,10 +182,11 @@ namespace LaboratorioProgramacionUno.VIstas
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
+            this.lblUsuario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblUsuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.Location = new System.Drawing.Point(625, 71);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(31, 18);
+            this.lblUsuario.Size = new System.Drawing.Size(33, 20);
             this.lblUsuario.TabIndex = 13;
             this.lblUsuario.Text = "- - -";
             this.lblUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
