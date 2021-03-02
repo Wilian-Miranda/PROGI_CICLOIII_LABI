@@ -42,7 +42,6 @@ namespace LaboratorioProgramacionUno.VIstas
                 {
                     ClsEntidades clsEntidad1 = new ClsEntidades();
                     ClsLogin clsLogin = new ClsLogin();
-
                     clsEntidad1.User = txtUser.Text;
                     clsEntidad1.UserPass = txtPass.Text;
 
@@ -56,7 +55,6 @@ namespace LaboratorioProgramacionUno.VIstas
                         this.Hide();
                         _frmOperaciones.txtIVA.Enabled = false;
                         _frmOperaciones.txtNombreProducto.Enabled = false;
-
                     }
                     else
                     {
@@ -100,5 +98,17 @@ namespace LaboratorioProgramacionUno.VIstas
             }
         }
 
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void txtUser_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btnEntrar.PerformClick();
+            }
+        }
     }
 }

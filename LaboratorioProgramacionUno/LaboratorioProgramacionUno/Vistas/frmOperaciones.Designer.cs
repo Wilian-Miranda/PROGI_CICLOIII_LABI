@@ -46,11 +46,11 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtNombreProducto = new System.Windows.Forms.TextBox();
             this.txtPrecioDelProducto = new System.Windows.Forms.TextBox();
             this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.lblProductoNombre = new System.Windows.Forms.Label();
-            this.lblTotalSinIVA = new System.Windows.Forms.Label();
-            this.lblIVAaAgregar = new System.Windows.Forms.Label();
-            this.lblTotalSinDescuentoMasIVA = new System.Windows.Forms.Label();
-            this.lblTotalConDescuento = new System.Windows.Forms.Label();
+            this.lbProductoNombre = new System.Windows.Forms.Label();
+            this.lbTotalSinIVA = new System.Windows.Forms.Label();
+            this.lbIVAaAgregar = new System.Windows.Forms.Label();
+            this.lbTotalSinDescuentoMasIVA = new System.Windows.Forms.Label();
+            this.lbTotalConDescuento = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -76,6 +76,7 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtIVA.Name = "txtIVA";
             this.txtIVA.Size = new System.Drawing.Size(168, 26);
             this.txtIVA.TabIndex = 1;
+            this.txtIVA.Text = "0.13";
             this.txtIVA.TextChanged += new System.EventHandler(this.txtIVA_TextChanged);
             // 
             // btnCalcular
@@ -207,6 +208,7 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtNombreProducto.Name = "txtNombreProducto";
             this.txtNombreProducto.Size = new System.Drawing.Size(168, 26);
             this.txtNombreProducto.TabIndex = 15;
+            this.txtNombreProducto.Text = "LAPTOP";
             // 
             // txtPrecioDelProducto
             // 
@@ -215,6 +217,8 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtPrecioDelProducto.Name = "txtPrecioDelProducto";
             this.txtPrecioDelProducto.Size = new System.Drawing.Size(168, 26);
             this.txtPrecioDelProducto.TabIndex = 16;
+            this.txtPrecioDelProducto.Text = "100";
+            this.txtPrecioDelProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioDelProducto_KeyPress);
             // 
             // txtCantidad
             // 
@@ -223,56 +227,58 @@ namespace LaboratorioProgramacionUno.VIstas
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(168, 26);
             this.txtCantidad.TabIndex = 17;
+            this.txtCantidad.Text = "1";
+            this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
-            // lblProductoNombre
+            // lbProductoNombre
             // 
-            this.lblProductoNombre.AutoSize = true;
-            this.lblProductoNombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProductoNombre.Location = new System.Drawing.Point(634, 328);
-            this.lblProductoNombre.Name = "lblProductoNombre";
-            this.lblProductoNombre.Size = new System.Drawing.Size(31, 18);
-            this.lblProductoNombre.TabIndex = 18;
-            this.lblProductoNombre.Text = "- - -";
+            this.lbProductoNombre.AutoSize = true;
+            this.lbProductoNombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductoNombre.Location = new System.Drawing.Point(634, 328);
+            this.lbProductoNombre.Name = "lbProductoNombre";
+            this.lbProductoNombre.Size = new System.Drawing.Size(31, 18);
+            this.lbProductoNombre.TabIndex = 18;
+            this.lbProductoNombre.Text = "- - -";
             // 
-            // lblTotalSinIVA
+            // lbTotalSinIVA
             // 
-            this.lblTotalSinIVA.AutoSize = true;
-            this.lblTotalSinIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSinIVA.Location = new System.Drawing.Point(695, 375);
-            this.lblTotalSinIVA.Name = "lblTotalSinIVA";
-            this.lblTotalSinIVA.Size = new System.Drawing.Size(31, 18);
-            this.lblTotalSinIVA.TabIndex = 19;
-            this.lblTotalSinIVA.Text = "- - -";
+            this.lbTotalSinIVA.AutoSize = true;
+            this.lbTotalSinIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTotalSinIVA.Location = new System.Drawing.Point(695, 375);
+            this.lbTotalSinIVA.Name = "lbTotalSinIVA";
+            this.lbTotalSinIVA.Size = new System.Drawing.Size(31, 18);
+            this.lbTotalSinIVA.TabIndex = 19;
+            this.lbTotalSinIVA.Text = "- - -";
             // 
-            // lblIVAaAgregar
+            // lbIVAaAgregar
             // 
-            this.lblIVAaAgregar.AutoSize = true;
-            this.lblIVAaAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIVAaAgregar.Location = new System.Drawing.Point(695, 426);
-            this.lblIVAaAgregar.Name = "lblIVAaAgregar";
-            this.lblIVAaAgregar.Size = new System.Drawing.Size(31, 18);
-            this.lblIVAaAgregar.TabIndex = 20;
-            this.lblIVAaAgregar.Text = "- - -";
+            this.lbIVAaAgregar.AutoSize = true;
+            this.lbIVAaAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbIVAaAgregar.Location = new System.Drawing.Point(695, 426);
+            this.lbIVAaAgregar.Name = "lbIVAaAgregar";
+            this.lbIVAaAgregar.Size = new System.Drawing.Size(31, 18);
+            this.lbIVAaAgregar.TabIndex = 20;
+            this.lbIVAaAgregar.Text = "- - -";
             // 
-            // lblTotalSinDescuentoMasIVA
+            // lbTotalSinDescuentoMasIVA
             // 
-            this.lblTotalSinDescuentoMasIVA.AutoSize = true;
-            this.lblTotalSinDescuentoMasIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSinDescuentoMasIVA.Location = new System.Drawing.Point(695, 472);
-            this.lblTotalSinDescuentoMasIVA.Name = "lblTotalSinDescuentoMasIVA";
-            this.lblTotalSinDescuentoMasIVA.Size = new System.Drawing.Size(31, 18);
-            this.lblTotalSinDescuentoMasIVA.TabIndex = 21;
-            this.lblTotalSinDescuentoMasIVA.Text = "- - -";
+            this.lbTotalSinDescuentoMasIVA.AutoSize = true;
+            this.lbTotalSinDescuentoMasIVA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTotalSinDescuentoMasIVA.Location = new System.Drawing.Point(695, 472);
+            this.lbTotalSinDescuentoMasIVA.Name = "lbTotalSinDescuentoMasIVA";
+            this.lbTotalSinDescuentoMasIVA.Size = new System.Drawing.Size(31, 18);
+            this.lbTotalSinDescuentoMasIVA.TabIndex = 21;
+            this.lbTotalSinDescuentoMasIVA.Text = "- - -";
             // 
-            // lblTotalConDescuento
+            // lbTotalConDescuento
             // 
-            this.lblTotalConDescuento.AutoSize = true;
-            this.lblTotalConDescuento.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalConDescuento.Location = new System.Drawing.Point(695, 516);
-            this.lblTotalConDescuento.Name = "lblTotalConDescuento";
-            this.lblTotalConDescuento.Size = new System.Drawing.Size(31, 18);
-            this.lblTotalConDescuento.TabIndex = 22;
-            this.lblTotalConDescuento.Text = "- - -";
+            this.lbTotalConDescuento.AutoSize = true;
+            this.lbTotalConDescuento.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTotalConDescuento.Location = new System.Drawing.Point(695, 516);
+            this.lbTotalConDescuento.Name = "lbTotalConDescuento";
+            this.lbTotalConDescuento.Size = new System.Drawing.Size(31, 18);
+            this.lbTotalConDescuento.TabIndex = 22;
+            this.lbTotalConDescuento.Text = "- - -";
             // 
             // label18
             // 
@@ -331,11 +337,11 @@ namespace LaboratorioProgramacionUno.VIstas
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.lblTotalConDescuento);
-            this.Controls.Add(this.lblTotalSinDescuentoMasIVA);
-            this.Controls.Add(this.lblIVAaAgregar);
-            this.Controls.Add(this.lblTotalSinIVA);
-            this.Controls.Add(this.lblProductoNombre);
+            this.Controls.Add(this.lbTotalConDescuento);
+            this.Controls.Add(this.lbTotalSinDescuentoMasIVA);
+            this.Controls.Add(this.lbIVAaAgregar);
+            this.Controls.Add(this.lbTotalSinIVA);
+            this.Controls.Add(this.lbProductoNombre);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.txtPrecioDelProducto);
             this.Controls.Add(this.txtNombreProducto);
@@ -356,6 +362,7 @@ namespace LaboratorioProgramacionUno.VIstas
             this.Name = "frmOperaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmOperaciones";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmOperaciones_FormClosing);
             this.Load += new System.EventHandler(this.frmOperaciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -384,11 +391,11 @@ namespace LaboratorioProgramacionUno.VIstas
         public System.Windows.Forms.TextBox txtIVA;
         public System.Windows.Forms.TextBox txtNombreProducto;
         private System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Label lblProductoNombre;
-        public System.Windows.Forms.Label lblTotalSinIVA;
-        public System.Windows.Forms.Label lblIVAaAgregar;
-        public System.Windows.Forms.Label lblTotalSinDescuentoMasIVA;
-        public System.Windows.Forms.Label lblTotalConDescuento;
+        public System.Windows.Forms.Label lbProductoNombre;
+        public System.Windows.Forms.Label lbTotalSinIVA;
+        public System.Windows.Forms.Label lbIVAaAgregar;
+        public System.Windows.Forms.Label lbTotalSinDescuentoMasIVA;
+        public System.Windows.Forms.Label lbTotalConDescuento;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
