@@ -51,7 +51,7 @@ namespace LaboratorioProgramacionUno
             // 
             this.btnAdministrador.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnAdministrador.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministrador.Location = new System.Drawing.Point(495, 182);
+            this.btnAdministrador.Location = new System.Drawing.Point(460, 182);
             this.btnAdministrador.Name = "btnAdministrador";
             this.btnAdministrador.Size = new System.Drawing.Size(205, 57);
             this.btnAdministrador.TabIndex = 1;
